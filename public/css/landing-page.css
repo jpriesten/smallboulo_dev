@@ -1,0 +1,141 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif ;
+    font-weight: 700; 
+}
+
+
+
+.topnav {
+    font-size: 16px; 
+    color:blue;
+}
+
+
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8; 
+    /*background-color: rgb(9,9,32,0,5); 
+    background: url(../pics/intro-bg.jpg ) no-repeat center center; */ 
+    
+     background-color: #090920 ; 
+    background-size: cover;
+    /* ../img/intro-bg.jpg */
+    height:700px;
+    margin-top: 25px; 
+    text-shadow: 5px 5px 5px #090920
+
+}
+
+#employerCol { text-align: right;}
+#workerCol { text-align: left;}
+
+
+
+.section-heading-spacer-left {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+    border-color: rgb(121,0,0);
+}
+
+.section-heading-spacer-right{
+    float: right;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+    border-color: rgb(121,0,0);
+}
+.section-emp-heading {
+    margin-bottom: 30px;
+    /*color:#1edbc7;*/
+    color: green; 
+}
+.section-wo-heading {
+    margin-bottom: 30px;
+    color:#db7b1e;
+    font-weight: 500px;
+}
+
+#ans { color:white ;}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color:#090920;
+    color: #3c3f40;
+}
+
+#rightAlign {
+    text-align: right;
+    }
+
+
+
+@media(max-width:767px) {
+
+    .intro-header{
+        height: auto;
+        width: auto; 
+    }
+
+    #workerBtn, #employerBtn {
+        text-align: center;
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+
+    }
+
+    h1,h2 { 
+        font-size: 20px;
+        text-align: center;
+        font-weight: 200px;
+    }
+    
+    #logo, #hr { display: none; }
+
+    .section-heading-spacer { width: 100%; }
+   
+    #employerCol, #workerCol{
+        font-size: 5px;
+    }
+
+}
+
+@media(max-width:1199px) {
+
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}

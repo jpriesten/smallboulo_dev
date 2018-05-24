@@ -1,0 +1,97 @@
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#loader{
+    display: none;
+}
+.workerColor{
+    color:#db7b1e; 
+    font-size:25px; 
+    font-weight: 400;
+}
+
+.employerColor{
+	color:green;
+    font-size:25px; 
+    font-weight: 400;
+}
+
+.employerWorkerC{
+    color: blue;
+}
+
+#loginError, #signupError{
+    display: none;
+    color: red;
+}
+
+#loginSuccess{
+    display: none;
+    color: blue;
+}
+
+#empForgotPassword, #employerColor{
+    color: green;
+}
+
+#whenWorkerActive{
+    color: white;
+    background-color: #cc451b;
+}
+
+#whenEmployerActive{
+/*    display: none;*/
+    color: white;
+}
+
+#whenEmployerNotActive{
+    display: none;
+}
+
+#wForgotPassword, #workerColor{
+    color: #db7b1e;
+}
+
+#forgotPassword, #employerWorkerC{
+    color: blue;
+}
+
+#employerProfile, #employerSearch{
+}
+
+#signupLK, #loginLK{
+    display: none;
+}
+
+
+@media(max-width:767px){
+    #position{
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+    #bodyPosition{
+        margin-top: 0%;
+    }
+}
