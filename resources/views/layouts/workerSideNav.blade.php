@@ -1,8 +1,9 @@
 
 <div class="col-md-3"> 
+    @if(Auth::check())
     <!-- left image section --> 
     <img class="img img-reponsive img-thumbnail" src="/pics/sb2.png" alt="employer picture" width="185px" height="200px">
-    <h3 id="workerName"> pitson borellio </h3>
+    <h3 id="workerName"> {{ Auth::user()->firstName }} {{ Auth::user()->lastName }}  </h3>
     
     <div class="clearfix"></div>
 
@@ -14,5 +15,5 @@
 
         <li><a href="notification" id="workerColor"> Notifications <span class="badge">15</span></a></li>
     </ul>                       
-    
+    @endif
 </div>
