@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/login', 'UserConfigController@log_in')->name('login');
 Route::get('/signup', 'UserConfigController@sign_up');
 Route::post('/signup', 'UserConfigController@storeSign_up');
+Route::post('/login', 'UserConfigController@storeLog_in');
 Route::get('/logout', 'UserConfigController@destroy');
 
 // Employer routes

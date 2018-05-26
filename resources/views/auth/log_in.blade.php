@@ -23,40 +23,41 @@
 
             	<div class="col-md-4">
 
-            		<form method="POST" action="/log_in">
+            		<form method="POST" action="/login">
+									{{ csrf_field() }}
 
             			<div class="form-horizontal">
 					
-						    <fieldset>
-						        <legend id="employerWorkerC">SmallBoulo Login</legend>
-						        <p id="loginError"></p><p id="loginSuccess"></p>
+									<fieldset>
+											<legend id="employerWorkerC">SmallBoulo Login</legend>
+											<p id="loginError"></p><p id="loginSuccess"></p>
 
-						        <div class="form-group">
-						          <label for="email" class="col-sm-3 control-label">Email</label>
-						          <div class="col-sm-8">
-						            <input type="email" name="email" class="form-control" id="email">
-						          </div>
-						        </div>
+											<div class="form-group">
+												<label for="email" class="col-sm-3 control-label">Email</label>
+												<div class="col-sm-8">
+													<input type="email" name="email" class="form-control" id="email">
+												</div>
+											</div>
 
-						        <div class="form-group">
-						          <label for="password" class="col-sm-3 control-label">Password</label>
-						          <div class="col-sm-8">
-						            <input type="password" name="password" class="form-control" id="password">
-						          </div>
-						        </div>
+											<div class="form-group">
+												<label for="password" class="col-sm-3 control-label">Password</label>
+												<div class="col-sm-8">
+													<input type="password" name="password" class="form-control" id="password">
+												</div>
+											</div>
 
-						        <div class="col-sm-offset-3 col-sm-8">
-						          <a id="forgotPassword" href="#">Forgot your Password</a>
-						        </div>
+											<div class="col-sm-offset-3 col-sm-8">
+												<a id="forgotPassword" href="#">Forgot your Password</a>
+											</div>
 
-						        <div class="form-group">
-									<button type="submit" class="btn btn-primary pull-right"> Log In </button>
-								</div>
+											<div class="form-group">
+												<button type="submit" class="btn btn-primary pull-right"> Log In </button>
+											</div>
 
-						    </fieldset>
+									</fieldset>
 
-						</div>
-
+									</div>
+									@include('layouts.errors')
             		</form>
 
 				</div>
