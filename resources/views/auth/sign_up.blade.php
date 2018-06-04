@@ -14,7 +14,7 @@
 					<div class="jumbotron" >
 						<!-- Show an advert here -->
 						<!-- Sample view -->
-						<img class="img img-reponsive img-thumbnail" src="/pics/intro-bg.png" alt="Some Advert" width="auto" height="auto">
+						<img class="img img-reponsive img-thumbnail" src="/pics/logo.jpeg" alt="Some Advert" width="auto" height="auto">
 					</div>
 				</div>
 
@@ -27,7 +27,7 @@
 						<div class="form-horizontal">
 				
 							<fieldset>
-								<legend id="employerWorkerC">SmallBoulo SignUp</legend>
+								<legend id="employerWorkerC">SignUp</legend>
 
 								<p id="signupError"></p><p id="signupSuccess"></p>
 

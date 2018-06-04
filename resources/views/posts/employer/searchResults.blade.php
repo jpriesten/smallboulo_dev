@@ -14,12 +14,18 @@
 
                   <!-- dashboard -->
                  <div class="col-md-10">
-                 
-                    @foreach ($SearchR as $searchR)
+                 <!-- <p> No search results at the moment </p> -->
+                    @if (isset($SearchR))
+                        @foreach ($SearchR as $searchR)
 
-                        @include('posts.search')
+                            @include('posts.search')
 
-                    @endforeach
+                        @endforeach
+                    @endif
+                    
+                    
+                    <button class="btn btn-primary" type="button" onclick="history.back();">Back</button>
+                    
 
                  </div> <!-- closing of dashboard -->
 
